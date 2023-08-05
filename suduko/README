@@ -1,0 +1,22 @@
+               ------------------------------------------------------Description-------------------------------------------------------
+This project is a Sudoku solver application that utilizes Data Structures and Algorithms (DSA) concepts to solve Sudoku puzzles.
+The solver is based on backtracking and recursion techniques, allowing it to efficiently find solutions for Sudoku grids of varying difficulty levels.
+
+                ------------------------------------------------------Features----------------------------------------------------------
+1.Sudoku puzzle solving using backtracking and recursion.
+2.Functions to validate the correctness of the puzzle and the validity of number placements at specific positions.
+3.Utilization of an efficient 2D array or matrix data structure to represent the Sudoku grid.
+
+           ------------------------------------------------------------How it works----------------------------------------------------
+The Sudoku solver works by employing a recursive backtracking algorithm. It starts by finding an empty cell in the Sudoku grid and then attempts to place a valid number (from 1 to 9) in that cell.
+If the placement is valid, the solver moves on to the next empty cell and repeats the process. If it reaches a point where no valid number can be placed in a cell,
+it backtracks to the previous cell and tries a different number.This process continues until the solver successfully fills all empty cells and finds a solution for the Sudoku puzzle.
+
+           -------------------------------------------------------------Testing---------------------------------------------------------
+The Sudoku solver has been thoroughly tested with a variety of Sudoku puzzles, including easy, medium, hard, and expert-level puzzles.
+Extensive testing ensures that the solver accurately solves puzzles of different complexities and avoids common pitfalls like infinite loops or incorrect solutions.
+
+           --------------------------------------------------------------Usage--------------------------------------------------------------
+1.Clone the repository to your local machine.
+2.Compile and build the Sudoku solver application.
+3.Use the solver functions to solve Sudoku puzzles programmatically or load puzzles from external files.
